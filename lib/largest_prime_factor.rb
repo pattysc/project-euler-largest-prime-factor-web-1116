@@ -1,6 +1,6 @@
 # Enter your procedural solution here!
-def isprime?(n)
-  return false if n < 2;
+def isprime?(number)
+  return false if number < 2;
 
   index = 2
   while index < number
